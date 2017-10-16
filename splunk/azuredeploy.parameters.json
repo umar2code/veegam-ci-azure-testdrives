@@ -1,0 +1,41 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmAdminUsername": {
+            "value": "splunkuser"
+        },
+        "vmAdminPassword": {
+            "value": "Ashpassword123"
+        },
+        "clientAdminUsername": {
+            "value": "clientuser"
+        },
+        "clientAdminPassword": {
+            "value": "Ashpassword123"
+        },
+        "clientVmName": {
+            "value": "clientvm"
+        },
+        "splunkvmName": {
+            "value": "splunkvm"
+        },
+        "splunkAdminPassword": {
+            "value": "Ashpassword123"
+        },
+        "sshFrom": {
+            "value": "0.0.0.0/0"
+        },
+        "forwardedDataFrom": {
+            "value": "0.0.0.0/0"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "tag": {
+            "value": {
+                "value1": "splunk"
+            }
+        }
+    }
+}
