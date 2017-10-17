@@ -12,7 +12,7 @@
 		Then 1.0.0.0 yes be its value
 
 		When parameters.adminUserName.value is the key on params file
-		Then  testuser its value
+		Then  testuser yes be its value
 
 		When parameters.adminPassword.value is the key on params file
 		Then Qwerty12 yes be its value
